@@ -54,6 +54,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
                 <configuration>
+                    <!-- 这个参数是把代码打成jar包并放到了/WEB-INF/lib/下 -->
                     <archiveClasses>true</archiveClasses>
                     <archive>
                         <manifest>
